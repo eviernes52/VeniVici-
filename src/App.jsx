@@ -74,7 +74,7 @@ function App() {
           <h3>Congrats Your Ideal Breed is: {name}</h3>
           <img src={src}/>
         </div>
-        <button id="discover" onClick={getCat}>Discover your furball</button>
+        <button id="discover" onClick={getCat}>Discover your next buddy</button>
       </div>
 
       <div className="right-side">
