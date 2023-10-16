@@ -5,38 +5,122 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+.Body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #e6b5b5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  min-height: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  font-size: 28px;
+  color: #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+h2 {
+  font-size: 18px;
+  color: #ccc0c0;
+  margin-top: 10px;
 }
 
-.card {
-  padding: 2em;
+h3 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 20px;
 }
 
-.read-the-docs {
-  color: #888;
+img {
+  max-width: 500px;
+  max-height: 500px;
+  min-height: 500px;
+  height: auto;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
 }
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button#discover {
+  margin-top: 20px;
+  color: #ffe0e2;
+  background-color: #0056b3;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+button#discover:hover {
+  background-color: #c60a0a;
+}
+
+h3{
+  font-size: 24px;
+  color: #f15f5f;
+  margin-top: 20px;
+}
+
+.Bans {
+  margin-top: 20px;
+}
+
+.Bans ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Bans li {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.Bans button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.Bans button:hover {
+  background-color: #b5202a;
+}
+
+
+.Main {
+  display: flex;
+}
+
+.left-side {
+  flex: 1; /* Takes up available space on the left */
+  padding: 20px; /* Add padding as needed */
+}
+
+.right-side {
+  width: 250px; /* Fixed width for the ban list */
+  padding: 20px; /* Add padding as needed */
+  padding-top: 250px;
+}
+
